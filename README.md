@@ -1,4 +1,4 @@
-# Code Summarization Beyond Function Level (LLM4Code @ ICSE 2025)
+# Code Summarization Beyond Function Level <a href="https://arxiv.org/abs/2502.16704"><img src="https://img.shields.io/badge/arXiv-2502.16704-b31b1b.svg" height=23></a>
 
 This paper is accepted at [LLM4Code](https://llm4code.github.io) Workshop co-located with [ICSE 2025](https://conf.researchr.org/home/icse-2025).
 
@@ -126,3 +126,18 @@ LLMs
 </p>
 
 > `function-level` *Results on Modified ClassEval and Modified CodeSearchNet.* The table shows the average metrics of the models. The best results are highlighted in **bold**.
+
+## Citation
+
+If you use this code for your research, please cite our paper:
+
+```
+@article{makharev2025codesummarizationbeyondfunction,
+      title={Code Summarization Beyond Function Level}, 
+      author={Vladimir Makharev and Vladimir Ivanov},
+      journal={arXiv preprint arXiv:2502.16704},
+      year={2025},
+      url={https://arxiv.org/abs/2502.16704}, 
+}
+```
+
