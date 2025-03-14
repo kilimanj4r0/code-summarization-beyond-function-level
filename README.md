@@ -92,6 +92,21 @@ LLMs
 
 > Modification of the CodeSearchNet dataset from [CodeXGLUE benchmark](https://arxiv.org/abs/2102.04664)
 
+| Repository used in the study                                                                | Functions Extracted | Branch | Hash                          |
+|---------------------------------------------------------------------------------------------|---------------------|--------|-------------------------------|
+| [apache/airflow](https://github.com/apache/airflow)                                        | 455                 | main   | 70f868e86704ac7810762df97190aa2575fea7d2 |
+| [streamlink/streamlink](https://github.com/streamlink/streamlink)                          | 64                  | master | 7adb5b126e84d0400d747f03241a53215bcd939a |
+| [open-mmlab/mmcv](https://github.com/open-mmlab/mmcv)                                     | 50                  | main   | 27df2b3b9c874129b1ac3d8a51d2ef7cde96f06c |
+| [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python)               | 237                 | main   | e44fa9a324faa992c1d0dccee90f5fb577422633 |
+
+To clone a repository with a specific hash, use:
+```bash
+git clone <repo_url> -b <branch> --single-branch --depth 1
+cd <repo_name>
+git checkout <hash>
+```
+For example, `git clone https://github.com/apache/airflow.git -b main --single-branch --depth 1 && git checkout 70f868e`.
+
 ### Results
 
 <img src="figures/table-key-results.png" width="100%"/>
